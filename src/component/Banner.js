@@ -17,7 +17,10 @@ function Banner() {
           <button className="banner_button">My List</button>
           <button className="banner_button">Play</button>
         </div>
-        <h1 className="banner_discription">this is a test discription</h1>
+        <h1 className="banner_discription">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+          minima! Aliquid ullam sed veniam et.
+        </h1>
       </div>
 
       <div className="banner--fadeBottom" />
