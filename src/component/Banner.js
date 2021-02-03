@@ -2,6 +2,10 @@ import React from "react";
 import "./Banner.css";
 
 function Banner() {
+  const truncate = (string, n) => {
+    return string?.length > n ? string.substr(0, n - 1) + "..." : string;
+  };
+
   return (
     <header
       className="banner"
@@ -18,8 +22,12 @@ function Banner() {
           <button className="banner_button">Play</button>
         </div>
         <h1 className="banner_discription">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-          minima! Aliquid ullam sed veniam et.
+          {truncate(
+            `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+          minima! Aliquid ullam sed veniam et.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+          minima! Aliquid ullam sed veniam et.`,
+            150
+          )}
         </h1>
       </div>
 
