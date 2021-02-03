@@ -3,9 +3,14 @@ import "./Banner.css";
 
 function Banner() {
   return (
-    <div className="banner">
-      <h1>i am banner</h1>
-    </div>
+    <header
+      className="banner"
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url("https://i.imgur.com/e1hLQ2m.png")`,
+        backgroundPosition: "center center",
+      }}
+    ></header>
   );
 }
 
