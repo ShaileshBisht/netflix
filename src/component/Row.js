@@ -1,8 +1,12 @@
 import React from "react";
 import "./Row.css";
 
-function Row() {
-  return <div className="row"></div>;
+function Row({ title }) {
+  return (
+    <div className="row">
+      <h2>{title}</h2>
+    </div>
+  );
 }
 
 export default Row;
