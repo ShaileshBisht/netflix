@@ -26,6 +26,7 @@ function Login() {
           <div className="loginScreen_input">
             <form>
               <input type="email" placeholder="email Address" />
+              <button className="loginScreen_getStarted">GET STARTED</button>
             </form>
           </div>
         </>
