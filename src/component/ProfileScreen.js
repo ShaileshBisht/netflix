@@ -19,6 +19,9 @@ function ProfileScreen() {
           />
           <div className="profileScreen_details">
             <h2>{user.email}</h2>
+            <div className="profileScreen_plans">
+              <button className="profileScreen_signOut">Sign Out</button>
+            </div>
           </div>
         </div>
       </div>
