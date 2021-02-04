@@ -41,14 +41,7 @@ function Banner() {
           <button className="banner_button">My List</button>
           <button className="banner_button">Play</button>
         </div>
-        <h1 className="banner_discription">
-          {truncate(
-            `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-          minima! Aliquid ullam sed veniam et.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-          minima! Aliquid ullam sed veniam et.`,
-            150
-          )}
-        </h1>
+        <h1 className="banner_discription">{truncate(movie?.overview, 150)}</h1>
       </div>
 
       <div className="banner--fadeBottom" />
