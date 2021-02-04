@@ -21,6 +21,8 @@ function ProfileScreen() {
           <div className="profileScreen_details">
             <h2>{user.email}</h2>
             <div className="profileScreen_plans">
+              <h3>Plans</h3>
+
               <button
                 onClick={() => auth.signOut()}
                 className="profileScreen_signOut"
