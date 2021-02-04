@@ -35,3 +35,8 @@
   transform: scale(1.09);
   opacity: 1;
 }
+
+.flex_data {
+  display: flex;
+  flex-direction: column;
+}
