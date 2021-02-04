@@ -11,6 +11,8 @@ function Login() {
           alt=""
         />
         <button className="loginScreen_button">Sign In</button>
+
+        <div className="loginScreen_gradient"></div>
       </div>
     </div>
   );
