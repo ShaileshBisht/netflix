@@ -6,6 +6,22 @@
   background-size: cover;
 }
 
+.loginScreen_body h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen_body {
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+}
+
 .loginScreen_gradient {
   width: 100%;
   height: 100vh;
