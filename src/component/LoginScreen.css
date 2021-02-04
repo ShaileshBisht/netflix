@@ -11,6 +11,17 @@
   margin-bottom: 20px;
 }
 
+.loginScreen_body h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.loginScreen_body h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
 .loginScreen_body {
   position: absolute;
   top: 30%;
