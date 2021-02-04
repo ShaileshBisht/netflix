@@ -25,9 +25,10 @@
 .loginScreen_body {
   position: absolute;
   top: 20%;
-  left: 10%;
-  /* margin-left: auto !important;
-  margin-right: auto !important; */
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
   text-align: center;
   z-index: 1;
   color: #fff;
