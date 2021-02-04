@@ -11,7 +11,7 @@ function SignupScreen() {
         <button type="submit">Sign In</button>
         <h4>
           <span className="signupScreen_gray">New to netflix? </span>
-          Sign Up now.
+          <span className="signupScreen_link">Sign Up now.</span>
         </h4>
       </form>
     </div>

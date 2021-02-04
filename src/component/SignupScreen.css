@@ -46,3 +46,8 @@
   border-radius: 5px;
   background-color: #e50914;
 }
+
+.signupScreen_link {
+  cursor: pointer;
+  text-decoration: underline;
+}
