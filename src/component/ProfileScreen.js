@@ -1,10 +1,11 @@
 import React from "react";
+import Nav from "./Nav";
 import "./ProfileScreen.css";
 
 function ProfileScreen() {
   return (
     <div className="profileScreen">
-      <h1>i am profile</h1>
+      <Nav />
     </div>
   );
 }
